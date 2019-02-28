@@ -1,0 +1,28 @@
+@import url(./../../project/style.css);
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+:root {
+    --mainblock-headline-text-color: var(--sandy-taure);
+
+}
+
+.mainblock {
+    font-size: 1rem;
+}
+
+.mainblock__photo {
+    display: block;
+    box-sizing: border-box;
+    max-width: 90em;
+    width: 100%;
+}
+
+.mainblock__headline {
+    position: absolute;
+    top: 2.5em;
+    right: 2em;
+    color: var(--mainblock-headline-text-color);
+    font-size: 4em;
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+}

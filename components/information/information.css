@@ -1,0 +1,38 @@
+@import url(../../project/style.css);
+
+:root {
+    --information-bg-color: var(--isabelline);
+    --information-description-text-color: var(--rich-black);
+}
+
+.information {
+    display: flex;
+    box-sizing: border-box;
+    background: var(--information-bg-color);
+    font-size: 1rem;
+}
+
+
+.information__image {
+    display: block;
+    width: 26em;
+}
+
+.information__description {
+    color: var(--information-description-text-color);
+    padding: 0 2em;
+}
+
+.information__header {
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.7;
+    letter-spacing: 0.025em;
+}
+
+.information__text {
+    font-size: 0.9em;
+    font-weight: 400;
+}

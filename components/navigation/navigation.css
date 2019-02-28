@@ -1,0 +1,120 @@
+@import url(./../../project/style.css);
+
+:root {
+    --navigation-link-text-color: var( --isabelline);
+    --header-bg-color: var(--rich-black-opacity);
+    --logo-text-color: var(--isabelline);
+    --navigation-hover-link-color: var(--sandy-taure);
+    --submenu-bg-color: var(--rich-black-opacity);
+    --submenu-item-border-color: var(--isabelline);
+    --submenu-link-text-color: var(--isabelline);
+    --submenu-hover-text-color: var(--sandy-taure);
+    --i-text-color: var(--sandy-taure);
+    --i-hover-text-color: var(--isabelline);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    background: var(--header-bg-color);
+    font-size: 1rem;
+    padding: 1.5em;
+    width: 100%;
+}
+
+.header__container {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.logo {
+    color: var(--logo-text-color);
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.navigation__item_social {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.navigation__list {
+    display: flex;
+    list-style: none;
+}
+
+.navigation__link {
+    display: block;
+    margin: 0 0.6em;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: var(--navigation-link-text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+.navigation__link:hover {
+    color: var(--navigation-hover-link-color);
+}
+
+.navigation__item_relative {
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    left: -1em;
+    top: 2.7em;
+    list-style: none;
+    text-align: center;
+    width: 6em;
+    box-shadow: 0 0 2em rgba(0,0,0,0.2);
+    visibility: hidden;
+}
+
+.navigation__item_relative:hover > .submenu {
+    visibility: visible;
+}
+
+.submenu {
+    background: var(--submenu-bg-color);
+    padding: 0;
+    border-radius: 0.2em;
+}
+
+.submenu__item:first-child {
+    border-bottom: 0.025em solid var(--submenu-item-border-color);
+}
+
+.submenu__link {
+    display: block;
+    padding: 1.5em 0;
+    text-decoration: none;
+    color: var(--submenu-link-text-color);
+}
+
+.submenu__link:hover {
+    color: var(--submenu-hover-text-color);
+}
+
+.navigation__social-link i {
+    font-size: 1em;
+    color: var(--i-text-color);
+}
+
+.navigation__social-link:hover i {
+    font-size: 1em;
+    color: var(--i-hover-text-color);
+}
+
+
+

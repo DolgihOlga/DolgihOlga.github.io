@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="repertoire.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__container">
+        <div class="logo"><span>Игорь Долгих</span></div>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a class="navigation__link" href="#">Главная</a></li>
+                <li class="navigation__item navigation__item_relative"><a class="navigation__link navigation__link_down"
+                                                                          href="#">Медиа</a>
+                    <ul class="submenu">
+                        <li class="submenu__item"><a class="submenu__link" href="#">видео</a></li>
+                        <li class="submenu__item"><a class="submenu__link" href="#">аудио</a></li>
+                    </ul>
+                </li>
+                <li class="navigation__item"><a class="navigation__link" href="#">Репертуар</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#">Отзывы</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#">Контакты</a></li>
+                <li class="navigation__item navigation__item_social">
+                    <a class="navigation__social-link" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="navigation__social-link" href="#"><i class="fab fa-vk"></i></a>
+                    <a class="navigation__social-link" href="#"><i class="fab fa-facebook-square"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<header class="repertoire">
+    <h3 class="repertoire__headline">Репертуар</h3>
+</header>
+<section class="repertoire-song">
+    <div class="repertoire-song__container">
+    <h3 class="repertoire-song__headline">Более 500 песен</h3>
+    <p class="repertoire-song__text">От джаза до современных хитов</p>
+    <a class="repertoire-button button" href="./../../project/docs/IgorDolgih-Repertuar.xlsx">Скачать полный репертуар</a>
+    </div>
+    <p class="repertoire-song__recomend">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam aperiam aspernatur consequuntur
+        culpa dicta dolores ea eos esse eum hic impedit ipsa magnam modi molestiae nemo nulla numquam, obcaecati, optio
+        perspiciatis quis sequi sit tempore tenetur velit voluptate voluptatem.</p>
+    <ul class="repertoire-song__list">
+        <li class="repertoire-song__item">Мировые хиты</li>
+        <li class="repertoire-song__item">Современные русские танцевальные хиты</li>
+        <li class="repertoire-song__item">Шансон</li>
+        <li class="repertoire-song__item">Русские хиты (80-х, 90-х)</li>
+    </ul>
+</section>
+<footer class="footer">
+    <div class="logo">
+        <span class="logo__footer">Игорь Долгих</span><br>
+        <p class="logo__rights">&#169; Ольга Долгих 2019.
+            Все права.</p>
+    </div>
+    <input type="checkbox" id="submit"><label class="button" for="submit">закажите выступление</label>
+    <form class="order-form" action="#" id="order-form">
+        <div class="order-form__inner">
+            <h3 class="order-form__header">Закажите выступление</h3>
+            <label class="order-form__username" for="username">Ваше имя</label>
+            <input class="order-form__text" type="text" id="username">
+            <label class="order-form__tel" for="phone">Ваш телефон</label>
+            <input class="order-form__phone" id="phone" type="tel">
+            <input class="order-form__input-submit button" type="submit" value="Отправить">
+        </div>
+        <a class="order-form__button" title="закрыть" href="../page1/page1.html"><i class="fas fa-times-circle"></i></a>
+    </form>
+    <div class="social-link">
+        <a class="logo__social-link" href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a class="logo__social-link" href="#">
+            <i class="fab fa-vk"></i>
+        </a>
+        <a class="logo__social-link" href="">
+            <i class="fab fa-facebook-square"></i>
+        </a>
+    </div>
+</footer>
+
+</body>
+</html>

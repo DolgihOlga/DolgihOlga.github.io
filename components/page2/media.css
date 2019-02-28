@@ -1,0 +1,74 @@
+@import url(./../../project/style.css);
+@import url(./../navigation/navigation.css);
+@import url(https://use.fontawesome.com/releases/v5.7.2/css/all.css);
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url(./../footer/footer.css);
+@import url(../page1/page1.css);
+@import url(./../order-form/order-form.css);
+
+:root {
+    --media-bg-color: var(--registration-black);
+    --media-headline-text-color: var(--sandy-taure);
+    --video-bg-color: var(--onyx);
+    --video-title-text-color: var(--isabelline);
+}
+
+.media {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+    background: #181818;
+    font-size: 1rem;
+    height: 30em;
+    line-height: 30em;
+}
+
+.media__photo {
+    display: block;
+    box-sizing: border-box;
+    max-width: 40em;
+    height: 30em;
+    width: 100%;
+    padding-top: 4.4em;
+}
+
+.media__headline {
+    box-sizing: border-box;
+    width: 50%;
+    padding-left: 2.3em;
+    font-style: italic;
+    font-size: 4em;
+    color: var(--media-headline-text-color);
+    font-family: 'Lobster', cursive;
+}
+
+.video {
+    background: var(--video-bg-color);
+}
+
+.video__title {
+    padding: 2em;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: var(--video-title-text-color);
+
+}
+
+
+.video__container{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.video__item {
+    box-sizing: border-box;
+    margin-bottom: 2em;
+}
+
+
+
