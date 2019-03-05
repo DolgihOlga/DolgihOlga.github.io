@@ -19,6 +19,7 @@
 
 .mainblock__headline {
     position: absolute;
+    z-index: 1;
     top: 2.5em;
     right: 2em;
     color: var(--mainblock-headline-text-color);
