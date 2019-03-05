@@ -26,10 +26,14 @@
     font-size: 1em;
     line-height: 3;
     color: var(--contacts__headline-text-color);
-
 }
 
 .contacts__headline {
     font-size: 2em;
     font-style: italic;
+}
+
+.contacts__information i {
+    color: var(--i-text-color);
+    padding-right: 0.5em;
 }
