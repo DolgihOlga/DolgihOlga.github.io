@@ -4,8 +4,261 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="reviews.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bxslider/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./bxslider/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.slider').bxSlider();
+        });
+    </script>
 </head>
 <body>
+<header class="header">
+    <div class="header__container">
+        <div class="logo"><span>Игорь Долгих</span></div>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a class="navigation__link" href="#">Главная</a></li>
+                <li class="navigation__item navigation__item_relative"><a class="navigation__link navigation__link_down"
+                                                                          href="#">Медиа</a>
+                    <ul class="submenu">
+                        <li class="submenu__item"><a class="submenu__link" href="#">видео</a></li>
+                        <li class="submenu__item"><a class="submenu__link" href="#">аудио</a></li>
+                    </ul>
+                </li>
+                <li class="navigation__item"><a class="navigation__link" href="#">Репертуар</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#">Отзывы</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#">Контакты</a></li>
+                <li class="navigation__item navigation__item_social">
+                    <a class="navigation__social-link" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="navigation__social-link" href="#"><i class="fab fa-vk"></i></a>
+                    <a class="navigation__social-link" href="#"><i class="fab fa-facebook-square"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="reviews">
+    <h2 class="reviews__headline">Отзывы клиентов</h2>
+
+<div class="slider">
+    <div class="container">
+        <article class="review">
+            <div class="review__container">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="review-description"> &#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque
+                    eveniet ex
+                    illo laboriosam molestiae
+                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
+                    possimus?Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit
+                    <input type="checkbox" class="review__button" id="reviewFirst"><label class="review__label" for="reviewFirst">...&#8221;
+                        <span class="review_more">Читать дальше</span></label>
+                    <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+                </p>
+            </div>
+            <footer class="review-person">
+                <img class="review-person__photo" src="./../../project/images/ava.png" alt="">
+                <p class="reviewer">Елена Крушельницкая</p>
+            </footer>
+        </article>
+
+        <article class="review">
+            <div class="review__container">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="review-description"> &#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque
+                    eveniet ex
+                    illo laboriosam molestiae
+                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
+                    possimus?Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit
+                    <input type="checkbox" class="review__button" id="reviewSecond"><label class="review__label" for="reviewSecond">...&#8221;
+                        <span class="review_more">Читать дальше</span></label>
+                    <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+                </p>
+            </div>
+            <footer class="review-person">
+                <img class="review-person__photo" src="./../../project/images/ava.png" alt="">
+                <p class="reviewer">Елена Крушельницкая</p>
+            </footer>
+        </article>
+        <article class="review">
+            <div class="review__container">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="review-description"> &#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque
+                    eveniet ex
+                    illo laboriosam molestiae
+                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
+                    possimus?Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit
+                    <input type="checkbox" class="review__button" id="reviewThird"><label class="review__label" for="reviewThird">...&#8221;
+                        <span class="review_more">Читать дальше</span></label>
+                    <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+                </p>
+            </div>
+            <footer class="review-person">
+                <img class="review-person__photo" src="./../../project/images/ava.png" alt="">
+                <p class="reviewer">Елена Крушельницкая</p>
+            </footer>
+        </article>
+    </div>
+    <div class="container">
+        <article class="review">
+            <div class="review__container">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="review-description"> &#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque
+                    eveniet ex
+                    illo laboriosam molestiae
+                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
+                    possimus?Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit
+                    <input type="checkbox" class="review__button" id="reviewFourth"><label class="review__label" for="reviewFourth">...&#8221;
+                        <span class="review_more">Читать дальше</span></label>
+                    <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+                </p>
+            </div>
+            <footer class="review-person">
+                <img class="review-person__photo" src="./../../project/images/ava.png" alt="">
+                <p class="reviewer">Елена Крушельницкая</p>
+            </footer>
+        </article>
+        <article class="review">
+            <div class="review__container">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="review-description"> &#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque
+                    eveniet ex
+                    illo laboriosam molestiae
+                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
+                    possimus?Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit
+                    <input type="checkbox" class="review__button" id="reviewFifth"><label class="review__label" for="reviewFifth">...&#8221;
+                        <span class="review_more">Читать дальше</span></label>
+                    <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+                </p>
+            </div>
+            <footer class="review-person">
+                <img class="review-person__photo" src="./../../project/images/ava.png" alt="">
+                <p class="reviewer">Елена Крушельницкая</p>
+            </footer>
+        </article>
+        <article class="review">
+            <div class="review__container">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="review-description"> &#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque
+                    eveniet ex
+                    illo laboriosam molestiae
+                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
+                    possimus?Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit
+                    <input type="checkbox" class="review__button" id="reviewSixth"><label class="review__label" for="reviewSixth">...&#8221;
+                        <span class="review_more">Читать дальше</span></label>
+                    <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+                </p>
+            </div>
+            <footer class="review-person">
+                <img class="review-person__photo" src="./../../project/images/ava.png" alt="">
+                <p class="reviewer">Елена Крушельницкая</p>
+            </footer>
+        </article>
+    </div>
+</div>
+</section>
+<form class="review-form" action="#" id="review-form">
+        <div class="review-form__inner">
+            <h3 class="review-form__header">Оставьте свой отзыв</h3>
+            <label class="review-form__username" for="name">Ваше имя:</label>
+            <input class="review-form__text" type="text" id="name">
+            <label class="review-form__label-email" for="email">Ваш email:</label>
+            <input class="review-form__input-email" id="email" type="email">
+            <div class="review-stars">
+                <h3 class="review-stars__title">Оцените выступление:</h3>
+                <label title="плохо">
+                    <input type="checkbox"  name="reviewStars"/>
+                    <i class="fas fa-star"></i>
+                </label>
+                <label title="не очень">
+                    <input type="checkbox"/>
+                    <i class="fas fa-star"></i>
+                </label>
+                <label title="не плохо">
+                    <input type="checkbox" name="reviewStars"/>
+                    <i class="fas fa-star"></i>
+                </label>
+                <label title="хорошо">
+                    <input type="checkbox" name="reviewStars"/>
+                    <i class="fas fa-star"></i>
+                </label>
+                <label title="превосходно">
+                    <input  type="checkbox" name="reviewStars"/>
+                    <i class="fas fa-star"></i>
+                </label>
+            </div>
+            <label for="review" class="review-stars__label">Напишите отзыв:</label><br>
+
+            <textarea class="review-stars__textarea" id="review" rows="4" cols="40"></textarea>
+        <br>
+            <input class="review-form__input-submit button" type="submit" value="Отправить">
+        </div>
+    </form>
+<footer class="footer">
+    <div class="logo">
+        <span class="logo__footer">Игорь Долгих</span><br>
+        <p class="logo__rights">&#169; Ольга Долгих 2019.
+            Все права.</p>
+    </div>
+    <input type="checkbox" id="submit"><label class="button" for="submit">закажите выступление</label>
+    <form class="order-form" action="#" id="order-form">
+        <div class="order-form__inner">
+            <h3 class="order-form__header">Закажите выступление</h3>
+            <label class="order-form__username" for="username">Ваше имя</label>
+            <input class="order-form__text" type="text" id="username">
+            <label class="order-form__tel" for="phone">Ваш телефон</label>
+            <input class="order-form__phone" id="phone" type="tel">
+            <input class="order-form__input-submit button" type="submit" value="Отправить">
+        </div>
+        <a class="order-form__button" title="закрыть" href="../page1/page1.html"><i class="fas fa-times-circle"></i></a>
+    </form>
+    <div class="social-link">
+        <a class="logo__social-link" href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a class="logo__social-link" href="#">
+            <i class="fab fa-vk"></i>
+        </a>
+        <a class="logo__social-link" href="">
+            <i class="fab fa-facebook-square"></i>
+        </a>
+    </div>
+</footer>
+
 
 </body>
 </html>
