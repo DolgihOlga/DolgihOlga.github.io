@@ -69,8 +69,6 @@
     border: none;
 }
 
-
-
 .navigation__link:hover {
     color: var(--navigation-hover-link-color);
 }

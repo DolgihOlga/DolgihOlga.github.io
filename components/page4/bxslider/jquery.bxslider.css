@@ -35,36 +35,8 @@ ul.bxslider {
 ===================================*/
 .bx-wrapper {
   height: 37.5em;
+}
 
-}
-.bx-wrapper .bx-pager,
-.bx-wrapper .bx-controls-auto {
-  position: absolute;
-  bottom: -30px;
-  width: 100%;
-}
-/* LOADER */
-.bx-wrapper .bx-loading {
-  min-height: 50px;
-  background: url('images/bx_loader.gif') center center no-repeat #ffffff;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2000;
-}
-/* PAGER */
-.bx-wrapper .bx-pager {
-  text-align: center;
-  font-size: .85em;
-  font-family: Arial;
-  font-weight: bold;
-  color: #666;
-  padding-top: 20px;
-  margin-bottom: 40px;
-
-}
 .bx-wrapper .bx-pager.bx-default-pager a {
   background: #666;
   text-indent: -9999px;
@@ -173,6 +145,7 @@ ul.bxslider {
   background: rgba(80, 80, 80, 0.75);
   width: 100%;
 }
+
 .bx-wrapper .bx-caption span {
   color: #fff;
   font-family: Arial;
