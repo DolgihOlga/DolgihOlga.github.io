@@ -11,6 +11,7 @@
     --submenu-hover-text-color: var(--sandy-taure);
     --i-text-color: var(--sandy-taure);
     --i-hover-text-color: var(--isabelline);
+    --burger-line-bg-color: var(--isabelline);
 }
 
 * {
@@ -24,14 +25,17 @@
     box-sizing: border-box;
     font-size: 1rem;
     line-height: 4;
+    height: 5em;
     width: 100%;
 }
 
 .header__container {
+    position: relative;
     display: flex;
     max-width: 1400px;
+    height: 5em;
     margin: 0 auto;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     width: 90%;
 }
@@ -122,6 +126,39 @@
     font-size: 1em;
     color: var(--i-hover-text-color);
 }
+#menu-checkbox {
+    display: none;
+}
 
+.burger-line {
+    fdisplay: none;
+}
 
+.checkbox__label {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5em;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+}
 
+.burger-line {
+    position: absolute;
+    top: 1.5em;
+    right: 1.5em;
+    width: 2.5em;
+    height: 0.2em;
+    background: var(--burger-line-bg-color);
+
+}
+
+.second, .third {
+    top: 2.5em;
+}
+
+.fourth {
+    top: 3.5em;
+}
