@@ -54,6 +54,10 @@
     padding-right: 3em;
 }
 
+.navigation {
+    transition: all 0.5s ease-in;
+}
+
 .navigation__list {
     display: flex;
     list-style: none;
@@ -155,7 +159,7 @@
     width: 2.5em;
     height: 0.2em;
     background: var(--burger-line-bg-color);
-
+    transition: all 0.5s ease-in;
 }
 
 .second, .third {
@@ -166,7 +170,7 @@
     top: 3.5em;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 980px) {
     .burger-line {
         display: block;
     }
@@ -212,6 +216,7 @@
     #menu-checkbox:checked ~ .third{
         transform: rotate(-45deg);
     }
+    
     #menu-checkbox:checked ~ .fourth {
         display: none;
     }
