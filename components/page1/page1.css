@@ -5,13 +5,29 @@
 @import url(./../mainblock/mainblock.css);
 @import url(./../footer/footer.css);
 @import url(./../button/button.css);
-@import url(./../order-form);
+@import url(./../order-form/order-form.css);
 
 
 :root {
 
 }
 
+.information__photo-second {
+    position: absolute;
+    right: 0;
+    z-index: 3;
+    width: 30%;
+    height: 37.5em;
+}
 
+.information__photo-second:hover {
+    transform: scale(1.1) rotate(-5deg);
+    transition: all 2s ease-in-out;
+}
 
-
+.information__description-second {
+    position: absolute;
+    left: 0;
+    width: 70%;
+    height: 37.5em;
+}

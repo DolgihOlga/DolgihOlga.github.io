@@ -3,6 +3,7 @@
 
 
 
+
 :root {
     --order-form-header-text-color: var(--isabelline);
     --order-form-header-bg-after: var(--sandy-taure);
@@ -113,8 +114,6 @@
 .order-form__input-submit {
     width: 100%;
 }
-
-
 
 .order-form__button {
     position: absolute;
