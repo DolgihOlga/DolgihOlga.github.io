@@ -3,6 +3,8 @@
 :root {
     --information-bg-color: var(--isabelline);
     --information-description-text-color: var(--rich-black);
+    --description-inf-bg-color: var(--rich-black);
+    --description-text-color: var(--isabelline);
 }
 
 .information {
@@ -11,17 +13,58 @@
     background: var(--information-bg-color);
     font-size: 1rem;
 }
-
+.information__photo {
+    width: 30%;
+}
 
 .information__image {
     display: block;
-    width: 26em;
+    width: 100%;
 }
 
 .information__description {
+    position: relative;
+    right: 0;
     color: var(--information-description-text-color);
-    padding: 0 2em;
+    width: 70%;
 }
+
+.description__inf {
+    position: absolute;
+    z-index: 2;
+    padding: 0;
+    width: 100%;
+    background: var(--description-inf-bg-color);
+    height: 100%;
+}
+
+.description__text {
+    display: block;
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2em;
+    color: var(--description-text-color);
+}
+
+.description__inf:hover {
+    opacity: 0;
+    animation: anim1 2s ease-in-out;
+}
+@keyframes anim1 {
+    from {
+       opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
 
 .information__header {
     box-sizing: border-box;
