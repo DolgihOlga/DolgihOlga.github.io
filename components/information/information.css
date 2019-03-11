@@ -2,9 +2,9 @@
 
 :root {
     --information-bg-color: var(--isabelline);
-    --information-description-text-color: var(--rich-black);
     --description-inf-bg-color: var(--rich-black);
     --description-text-color: var(--isabelline);
+    --description-container-color: var(--rich-black);
 }
 
 .information {
@@ -25,7 +25,6 @@
 .information__description {
     position: relative;
     right: 0;
-    color: var(--information-description-text-color);
     width: 70%;
 }
 
@@ -55,6 +54,9 @@
     opacity: 0;
     animation: anim1 2s ease-in-out;
 }
+
+
+
 @keyframes anim1 {
     from {
        opacity: 1;
@@ -65,14 +67,30 @@
 }
 
 
+.description__container {
+    padding: 2em;
+    color: var(--description-container-color);
+    animation: anim2 5s ease-in-out;
+}
+
+@keyframes anim2 {
+    from {
+        color: var(--isabelline);
+    }
+    to {
+        color: var(--rich-black);
+    }
+}
 
 .information__header {
     box-sizing: border-box;
     text-transform: uppercase;
+    text-align: center;
     font-size: 1em;
     font-weight: 600;
     line-height: 1.7;
     letter-spacing: 0.025em;
+
 }
 
 .information__text {
