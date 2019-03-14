@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Медиа</title>
     <link rel="stylesheet" href="media.css">
-
-
 </head>
     <body>
     <header class="header">
@@ -19,11 +18,11 @@
             <div class="burger-line fourth"></div>
             <nav class="navigation">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a class="navigation__link" href="./../page1/index.html">Главная</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="../page1/page1.html">Главная</a></li>
                     <li class="navigation__item navigation__item_relative"><button class="navigation__link navigation__link_down">Медиа</button>
                         <ul class="submenu">
-                            <li class="submenu__item"><a class="submenu__link" href="#">видео</a></li>
-                            <li class="submenu__item"><a class="submenu__link" href="#">аудио</a></li>
+                            <li class="submenu__item"><a class="submenu__link" href="./../page2/page2.html#video">видео</a></li>
+                            <li class="submenu__item"><a class="submenu__link" href="./../page2/page2.html#audio">аудио</a></li>
                         </ul>
                     </li>
                     <li class="navigation__item"><a class="navigation__link" href="./../page3/page3.html">Репертуар</a></li>
@@ -42,7 +41,7 @@
         <p class="media__headline">Музыка</p>
         <img class="media__photo" src="./../../project/images/photomedia.jpg" alt="">
     </section>
-    <section class="video">
+    <section class="video" id="video">
         <h3 class="video__title">Кавер-видео</h3>
         <div class="video__container">
             <div class="video__item">
@@ -60,11 +59,7 @@
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
             </div>
-            <div class="video__item">
-                <iframe width="360" height="215" src="https://www.youtube.com/embed/0X1FxMFJxS4" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-            </div>
+
         </div>
     </section>
     <section class="video">
@@ -93,7 +88,7 @@
         </div>
     </section>
     <section>
-        <h3>Аудио</h3>
+        <h3 id="audio">Аудио</h3>
         <ul>
             <li>BrokenPlus<br>
                 <audio src="./../../project/audio/BrokenPlus" controls ></audio>

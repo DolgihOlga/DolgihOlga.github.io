@@ -3,9 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="f5d8cb7e-e9f4-4c6b-99d2-8d5c21cdc729" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/advantage-item/advantage.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/advantage-item/advantage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/information/information.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/information/information.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/mainblock/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/mainblock/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/mainblock/mainblock.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/mainblock/mainblock.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/order-form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/order-form/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/page1/page1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page1/page1.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/page1/page1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page2/page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/page2/page2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page3/page3.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/page3/page3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page4/page4.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/page4/page4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page5/page5.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/page5/page5.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,10 +29,14 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/components/mainblock/index.html">
+            <entry file="file://$PROJECT_DIR$/components/page1/page1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+                <state relative-caret-position="24">
+                  <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+                  <folding>
+                    <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -33,11 +45,29 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/components/page1/page1.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="196">
+                  <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/components/mainblock/mainblock.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="412">
+                <state relative-caret-position="867">
                   <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/components/advantage-item/advantage.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -49,8 +79,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -77,32 +108,39 @@
         <option value="$PROJECT_DIR$/components/page4/index.html" />
         <option value="$PROJECT_DIR$/components/footer/index.html" />
         <option value="$PROJECT_DIR$/components/page5/index.html" />
-        <option value="$PROJECT_DIR$/components/page1/page1.html" />
         <option value="$PROJECT_DIR$/components/page3/repertoire.css" />
         <option value="$PROJECT_DIR$/components/page5/contacts.css" />
         <option value="$PROJECT_DIR$/components/page4/reviews.css" />
         <option value="$PROJECT_DIR$/components/page2/media.css" />
         <option value="$PROJECT_DIR$/components/navigation/index.html" />
-        <option value="$PROJECT_DIR$/components/page5/page5.html" />
-        <option value="$PROJECT_DIR$/components/page2/page2.html" />
-        <option value="$PROJECT_DIR$/components/page3/page3.html" />
-        <option value="$PROJECT_DIR$/components/navigation/navigation.css" />
         <option value="$PROJECT_DIR$/components/page4/bxslider/jquery.bxslider.css" />
-        <option value="$PROJECT_DIR$/components/page4/page4.html" />
         <option value="$PROJECT_DIR$/components/information/index.html" />
         <option value="$PROJECT_DIR$/components/order-form/order-form.css" />
         <option value="$PROJECT_DIR$/components/order-form/index.html" />
-        <option value="$PROJECT_DIR$/components/page1/index.html" />
-        <option value="$PROJECT_DIR$/components/page1/page1.css" />
-        <option value="$PROJECT_DIR$/components/information/information.css" />
         <option value="$PROJECT_DIR$/components/mainblock/index.html" />
         <option value="$PROJECT_DIR$/components/mainblock/mainblock.css" />
+        <option value="$PROJECT_DIR$/components/page2/audiojs/audio.css" />
+        <option value="$PROJECT_DIR$/components/page2/audiojs/audio.js" />
+        <option value="$PROJECT_DIR$/components/page2/audio.js" />
+        <option value="$PROJECT_DIR$/components/page2/audiojs/audio.html" />
+        <option value="$PROJECT_DIR$/components/button/button.css" />
+        <option value="$PROJECT_DIR$/components/page2/audio.html" />
+        <option value="$PROJECT_DIR$/components/page1/index.html" />
+        <option value="$PROJECT_DIR$/components/navigation/navigation.css" />
+        <option value="$PROJECT_DIR$/components/page4/page4.html" />
+        <option value="$PROJECT_DIR$/components/page5/page5.html" />
+        <option value="$PROJECT_DIR$/components/page1/page1.html" />
+        <option value="$PROJECT_DIR$/components/page3/page3.html" />
+        <option value="$PROJECT_DIR$/components/page2/page2.html" />
+        <option value="$PROJECT_DIR$/components/information/information.css" />
+        <option value="$PROJECT_DIR$/components/page1/page1.css" />
+        <option value="$PROJECT_DIR$/components/advantage-item/advantage.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="10" />
-    <option name="width" value="1344" />
+    <option name="width" value="1348" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectView">
@@ -110,6 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,13 +171,37 @@
               <item name="progect" type="b2602c69:ProjectViewProjectNode" />
               <item name="progect" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="button" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="progect" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="information" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="progect" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="mainblock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="progect" type="b2602c69:ProjectViewProjectNode" />
               <item name="progect" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="progect" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="page1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="progect" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="page2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="progect" type="b2602c69:ProjectViewProjectNode" />
@@ -151,20 +214,6 @@
               <item name="progect" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="page4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progect" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="page4" type="462c0819:PsiDirectoryNode" />
-              <item name="bxslider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progect" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="page4" type="462c0819:PsiDirectoryNode" />
-              <item name="review-card" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="progect" type="b2602c69:ProjectViewProjectNode" />
@@ -193,26 +242,27 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../file" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\progect\components\page2\audiojs" />
       <recent name="D:\progect\components\page2" />
       <recent name="D:\progect\components\page4\bxslider" />
       <recent name="D:\progect\components" />
       <recent name="D:\progect" />
-      <recent name="D:\progect\button" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\progect\components\page2\audiojs" />
+      <recent name="D:\progect\components\page2" />
       <recent name="D:\progect\components" />
       <recent name="D:\progect" />
     </key>
@@ -258,18 +308,23 @@
       <workItem from="1552148361722" duration="1737000" />
       <workItem from="1552247043826" duration="625000" />
       <workItem from="1552251976229" duration="716000" />
-      <workItem from="1552294136404" duration="15387000" />
+      <workItem from="1552294136404" duration="18253000" />
+      <workItem from="1552337872501" duration="537000" />
+      <workItem from="1552338448068" duration="94000" />
+      <workItem from="1552372213052" duration="2968000" />
+      <workItem from="1552566404149" duration="1982000" />
+      <workItem from="1552592625153" duration="4749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107337000" />
+    <option name="totallyTimeSpent" value="120533000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1344" height="728" extended-state="0" />
+    <frame x="10" y="0" width="1348" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15696783" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20763358" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -311,16 +366,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/button/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/button/button.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -353,13 +398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-295">
           <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/advantage-item/advantage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -402,13 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="19" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/navigation/navigation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="181" column="18" selection-start-line="181" selection-start-column="18" selection-end-line="181" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -468,27 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/page2/page2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/page3/page3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/navigation/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/advantage-item/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -498,22 +508,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/page5/page5.html">
+    <entry file="file://$PROJECT_DIR$/components/mainblock/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/page2/audiojs/audio.css" />
+    <entry file="file://$PROJECT_DIR$/components/page2/audiojs/audio.min.js" />
+    <entry file="file://$PROJECT_DIR$/components/page2/audiojs/audio.js" />
+    <entry file="file://$PROJECT_DIR$/components/page2/audiojs/audio.html" />
+    <entry file="file://$PROJECT_DIR$/components/button/button.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="29" column="79" selection-start-line="29" selection-start-column="79" selection-end-line="29" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/button/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/page2/audio.html" />
+    <entry file="file://$PROJECT_DIR$/components/navigation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/page2/page2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/page3/page3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/page4/page4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="255" column="114" selection-start-line="255" selection-start-column="114" selection-end-line="255" selection-end-column="114" />
+        <state relative-caret-position="68">
+          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
           <folding>
-            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#article#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#article#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#article#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -530,17 +572,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/page1/page1.css">
+    <entry file="file://$PROJECT_DIR$/components/page5/page5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/information/information.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="68">
+          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -551,30 +589,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/page1/index.html">
+    <entry file="file://$PROJECT_DIR$/components/information/information.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="293" column="14" lean-forward="true" selection-start-line="293" selection-start-column="14" selection-end-line="293" selection-end-column="14" />
+        <state relative-caret-position="480">
+          <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/navigation/navigation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="177" column="36" selection-start-line="177" selection-end-line="177" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/page1/page1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
           <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/mainblock/index.html">
+    <entry file="file://$PROJECT_DIR$/components/page1/page1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="196">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/mainblock/mainblock.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
+        <state relative-caret-position="867">
           <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/advantage-item/advantage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>

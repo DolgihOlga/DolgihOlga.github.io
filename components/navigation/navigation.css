@@ -57,7 +57,8 @@
 }
 
 .navigation {
-    transition: all 0.5s ease-in;
+    padding-right: 3em;
+
 }
 
 .navigation__list {
@@ -94,7 +95,7 @@
     position: absolute;
     z-index: 1;
     left: -1em;
-    top: 4.1em;
+    top: 4.5em;
     list-style: none;
     text-align: center;
     width: 6em;
@@ -126,15 +127,17 @@
     color: var(--submenu-hover-text-color);
 }
 
-.navigation__social-link i {
+.navigation__social-link .fab {
     font-size: 1em;
     color: var(--i-text-color);
 }
 
-.navigation__social-link:hover i {
+.navigation__social-link:hover .fab {
     font-size: 1em;
     color: var(--i-hover-text-color);
 }
+
+
 #menu-checkbox {
     display: none;
 }
@@ -185,6 +188,7 @@
         bottom: 0;
         left: 0;
         transform: translateY(100%);
+        transition: all 0.5s ease-in;
         overflow: hidden;
         height: 0;
     }
