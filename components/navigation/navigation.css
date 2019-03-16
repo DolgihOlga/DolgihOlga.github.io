@@ -22,7 +22,7 @@
 }
 
 .header {
-    position: fixed;
+    position: absolute;
     background: var(--header-bg-color);
     box-sizing: border-box;
     font-size: 1rem;
@@ -33,7 +33,6 @@
 
 .header__container {
     position: relative;
-    z-index: 5;
     display: flex;
     max-width: 1400px;
     width: 100%;
@@ -100,12 +99,10 @@
     text-align: center;
     width: 6em;
     box-shadow: 0 0 2em rgba(0,0,0,0.2);
-    visibility: hidden;
+    display: none;
+
 }
 
-.navigation__item_relative:hover > .submenu {
-    visibility: visible;
-}
 
 .submenu {
     background: var(--submenu-bg-color);

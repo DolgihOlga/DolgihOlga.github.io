@@ -16,7 +16,7 @@ input[type="checkbox"] {
     outline: none;
     line-height: 2.5em;
     border-radius: 1.25em;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     text-decoration: none;
     color: var(--button-text-color);
     background: linear-gradient(45deg, #d1af42 0%, #a17d24 50%, #A16D1F 100%);

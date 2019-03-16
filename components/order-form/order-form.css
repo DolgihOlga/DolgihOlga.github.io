@@ -24,6 +24,7 @@
     margin: 0 auto;
     background-image: url("./../../project/images/formfon.jpg");
     background-size: cover;
+    font-size: 1rem;
 }
 
 .order-form:before {

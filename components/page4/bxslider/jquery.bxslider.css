@@ -161,4 +161,7 @@ ul.bxslider {
   display: flex;
   justify-content: space-around;
 }
-
+.bx-has-pager {
+  width: 4rem;
+  margin: 0 auto;
+}
