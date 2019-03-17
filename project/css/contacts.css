@@ -1,0 +1,38 @@
+@import url(../style.css);
+@import url(navigation.css);
+@import url(footer.css);
+
+
+:root {
+    --contacts__headline-text-color: var(--isabelline);
+}
+
+.contacts {
+    background: url("../images/contactsmin.jpg") no-repeat 100%;
+    background-size: cover;
+    font-size: 1rem;
+}
+
+
+.contacts__image {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contacts__information {
+    padding: 10em 5em 20em;
+    font-size: 1em;
+    line-height: 3;
+    color: var(--contacts__headline-text-color);
+}
+
+.contacts__headline {
+    font-size: 2em;
+    font-style: italic;
+}
+
+.contacts__information i {
+    color: var(--i-text-color);
+    padding-right: 0.5em;
+}

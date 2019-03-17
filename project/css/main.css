@@ -1,0 +1,65 @@
+@import url(../style.css);
+@import url(information.css);
+@import url(advantage.css);
+@import url(navigation.css);
+@import url(mainblock.css);
+@import url(footer.css);
+@import url(button.css);
+@import url(order-form.css);
+
+
+.information__photo-second {
+    position: absolute;
+    right: 0;
+    z-index: 3;
+    width: 30%;
+    height: 37.5em;
+    max-height: 37.5em;
+}
+
+.information__photo-second:hover {
+    transform: scale(1.1) rotate(-5deg);
+    transition: all 2s ease-in-out;
+}
+
+.information__description-second {
+    position: absolute;
+    left: 0;
+    width: 70%;
+    height: 37.5em;
+    max-height: 37.5em;
+}
+
+@media screen and (max-width: 980px) {
+    .information__photo-second, .information__description-second {
+        height: 30em;
+        max-height: 30em;
+    }
+    .name, .lastname {
+        font-size: 3.5em;
+    }
+    .advantage-container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 787px) {
+    .information__photo-second, .information__description-second {
+        height: 23em;
+        max-height: 23em;
+    }
+    .name, .lastname {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .information__photo-second, .information__description-second {
+        height: 16em;
+        max-height: 16em;
+    }
+    .name, .lastname {
+        font-size: 1.5em;
+    }
+}

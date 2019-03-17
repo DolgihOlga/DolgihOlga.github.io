@@ -2,11 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d8cb7e-e9f4-4c6b-99d2-8d5c21cdc729" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/html/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/html/repertoire.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/html/reviews.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/footer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/order-form/order-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/order-form/order-form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page1/page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/page1/page1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/advantage-item/advantage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/advantage-item/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/advantage/advantage.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/advantage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/advantage/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/button/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/button/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/information/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/information/information.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/information.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/js/order-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/js/order-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/js/review.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/js/review.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/js/submenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/js/submenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/mainblock/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/mainblock/mainblock.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/mainblock.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/order-form/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/order-form/order-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/order-form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page1/page1.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page1/page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/html/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page2/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page2/page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/html/media.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page3/page3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page3/repertoire.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/repertoire.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page4/bxslider/images/bx_loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project/bxslider/images/bx_loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page4/bxslider/images/controls.png" beforeDir="false" afterPath="$PROJECT_DIR$/project/bxslider/images/controls.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page4/bxslider/jquery.bxslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/bxslider/jquery.bxslider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page4/bxslider/jquery.bxslider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/bxslider/jquery.bxslider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page4/page4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page4/review-card/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page4/review-card/review-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/review-card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page4/reviews.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/reviews.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page5/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/contacts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page5/page5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/images/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/project/images/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/images/аватарка1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/manifest.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,70 +55,87 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7093802">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/components/page1/page1.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1343">
-                  <caret line="341" column="103" selection-start-line="341" selection-start-column="103" selection-end-line="341" selection-end-column="103" />
-                  <folding>
-                    <element signature="n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#svg#0;n#section#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#g#0;n#g#0;n#g#0;n#svg#0;n#section#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#1;n#svg#0;n#section#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#g#0;n#svg#0;n#section#2;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#g#0;n#g#1;n#svg#0;n#section#3;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#g#0;n#g#2;n#svg#0;n#section#3;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/components/js/order-form.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/components/button/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="83" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="98" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/components/order-form/order-form.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="378">
-                  <caret line="120" column="14" selection-start-line="120" selection-start-column="14" selection-end-line="120" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/components/footer/footer.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="63" column="15" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/html/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="78" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="78" />
+              <folding>
+                <element signature="n#svg#0;n#section#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#g#0;n#svg#0;n#section#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#g#0;n#g#0;n#g#0;n#svg#0;n#section#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#p#0;n#section#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#svg#0;n#section#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/html/media.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+              <folding>
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/html/repertoire.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+              <folding>
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/html/reviews.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+              <folding>
+                <element signature="n#footer#0;n#article#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#form#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/html/contacts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <folding>
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,10 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/button/button.css" />
-        <option value="$PROJECT_DIR$/project/style.css" />
-        <option value="$PROJECT_DIR$/components/advantage/advantage.css" />
-        <option value="$PROJECT_DIR$/components/advantage/index.html" />
         <option value="$PROJECT_DIR$/components/media/index.html" />
         <option value="$PROJECT_DIR$/project/index.html" />
         <option value="$PROJECT_DIR$/components/landing-page/landing-page.css" />
@@ -113,9 +163,6 @@
         <option value="$PROJECT_DIR$/components/page4/bxslider/jquery.bxslider.min.css" />
         <option value="$PROJECT_DIR$/components/page4/index.html" />
         <option value="$PROJECT_DIR$/components/page5/index.html" />
-        <option value="$PROJECT_DIR$/components/page5/contacts.css" />
-        <option value="$PROJECT_DIR$/components/page4/reviews.css" />
-        <option value="$PROJECT_DIR$/components/page2/media.css" />
         <option value="$PROJECT_DIR$/components/navigation/index.html" />
         <option value="$PROJECT_DIR$/components/information/index.html" />
         <option value="$PROJECT_DIR$/components/order-form/index.html" />
@@ -129,30 +176,39 @@
         <option value="$PROJECT_DIR$/components/page1/index.html" />
         <option value="$PROJECT_DIR$/components/advantage-item/advantage.css" />
         <option value="$PROJECT_DIR$/components/information/information.css" />
-        <option value="$PROJECT_DIR$/components/page1/page1.css" />
         <option value="$PROJECT_DIR$/project/package.json" />
-        <option value="$PROJECT_DIR$/project/manifest.json" />
         <option value="$PROJECT_DIR$/components/page4/bxslider/jquery.bxslider.css" />
         <option value="$PROJECT_DIR$/components/button/button.css" />
-        <option value="$PROJECT_DIR$/components/page3/repertoire.css" />
         <option value="$PROJECT_DIR$/components/js/submenu.js" />
-        <option value="$PROJECT_DIR$/components/page2/page2.html" />
-        <option value="$PROJECT_DIR$/components/page3/page3.html" />
-        <option value="$PROJECT_DIR$/components/page5/page5.html" />
         <option value="$PROJECT_DIR$/components/navigation/navigation.css" />
         <option value="$PROJECT_DIR$/components/page4/review-card/review-card.css" />
         <option value="$PROJECT_DIR$/components/page4/review-card/index.html" />
         <option value="$PROJECT_DIR$/components/js/review.js" />
-        <option value="$PROJECT_DIR$/components/page4/page4.html" />
         <option value="$PROJECT_DIR$/components/footer/index.html" />
         <option value="$PROJECT_DIR$/components/footer/footer.css" />
         <option value="$PROJECT_DIR$/components/order-form/order-form.css" />
         <option value="$PROJECT_DIR$/components/js/order-form.js" />
+        <option value="$PROJECT_DIR$/components/page1/manifest.json" />
+        <option value="$PROJECT_DIR$/components/advantage/advantage.css" />
+        <option value="$PROJECT_DIR$/components/advantage/index.html" />
+        <option value="$PROJECT_DIR$/components/page1/page1.css" />
+        <option value="$PROJECT_DIR$/components/page2/media.css" />
+        <option value="$PROJECT_DIR$/components/page3/repertoire.css" />
+        <option value="$PROJECT_DIR$/components/page4/reviews.css" />
+        <option value="$PROJECT_DIR$/components/page5/contacts.css" />
         <option value="$PROJECT_DIR$/components/page1/page1.html" />
+        <option value="$PROJECT_DIR$/components/page2/page2.html" />
+        <option value="$PROJECT_DIR$/components/page3/page3.html" />
+        <option value="$PROJECT_DIR$/components/page4/page4.html" />
+        <option value="$PROJECT_DIR$/components/page5/page5.html" />
+        <option value="$PROJECT_DIR$/components/page5/contacts.html" />
+        <option value="$PROJECT_DIR$/project/html/contacts.html" />
+        <option value="$PROJECT_DIR$/project/html/reviews.html" />
+        <option value="$PROJECT_DIR$/project/manifest.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="10" />
     <option name="width" value="1362" />
     <option name="height" value="728" />
@@ -169,66 +225,6 @@
             <path>
               <item name="progect" type="b2602c69:ProjectViewProjectNode" />
               <item name="progect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progect" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progect" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="button" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progect" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="footer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progect" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progect" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progect" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="order-form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progect" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="page1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progect" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="page4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progect" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="page4" type="462c0819:PsiDirectoryNode" />
-              <item name="bxslider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progect" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="page5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="progect" type="b2602c69:ProjectViewProjectNode" />
@@ -251,19 +247,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\progect\project\images" />
-      <recent name="D:\progect\project" />
-      <recent name="D:\progect\components\page2\audiojs" />
-      <recent name="D:\progect\components\page2" />
-      <recent name="D:\progect\components" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\progect\components\page2\audiojs" />
       <recent name="D:\progect\components\page2" />
       <recent name="D:\progect\components\page4\bxslider" />
       <recent name="D:\progect\components" />
       <recent name="D:\progect" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\progect\project\css" />
+      <recent name="D:\progect\project" />
+      <recent name="D:\progect\project\html" />
+      <recent name="D:\progect\project\images" />
+      <recent name="D:\progect\components\page1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -326,13 +322,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159376000" />
+    <option name="totallyTimeSpent" value="166040000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1362" height="728" extended-state="0" />
+    <frame x="10" y="0" width="1362" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09818731" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22507553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -374,24 +370,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/page4/bxslider/jquery.bxslider.min.js">
+    <entry file="file://$PROJECT_DIR$/project/bxslider/jquery.bxslider.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/components/page4/bxslider/jquery.bxslider.min.css" />
-    <entry file="file://$PROJECT_DIR$/components/advantage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/advantage/advantage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295">
-          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/images/contactfon.png" />
     <entry file="file://$PROJECT_DIR$/project/images/contactsfon.png" />
     <entry file="file://$PROJECT_DIR$/project/images/contactsfon-min.jpg" />
@@ -445,7 +427,7 @@
     <entry file="file://$PROJECT_DIR$/project/images/icon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/page4/bxslider/jquery.bxslider.css">
+    <entry file="file://$PROJECT_DIR$/project/bxslider/jquery.bxslider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
           <caret line="166" column="1" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
@@ -459,59 +441,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/button/button.css">
+    <entry file="file://$PROJECT_DIR$/project/css/button.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/mainblock/mainblock.css">
+    <entry file="file://$PROJECT_DIR$/project/css/mainblock.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/information/information.css">
+    <entry file="file://$PROJECT_DIR$/project/css/information.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-810">
           <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/page2/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1091">
-          <caret line="74" column="17" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/page4/reviews.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/page5/contacts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/page3/repertoire.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -522,72 +469,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/page2/page2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/page3/page3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/page5/page5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/js/submenu.js">
+    <entry file="file://$PROJECT_DIR$/project/js/submenu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/page4/review-card/review-card.css">
+    <entry file="file://$PROJECT_DIR$/project/css/review-card.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/page4/page4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#article#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#article#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#article#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#article#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#2;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#article#2;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#label#0;n#p#0;n#div#0;n#article#2;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#article#2;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#form#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/js/review.js">
+    <entry file="file://$PROJECT_DIR$/project/js/review.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
@@ -598,9 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding>
-            <element signature="n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,14 +504,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/page1/page1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/navigation/navigation.css">
+    <entry file="file://$PROJECT_DIR$/project/css/navigation.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3196">
           <caret line="191" column="14" selection-start-line="190" selection-start-column="8" selection-end-line="191" selection-end-column="18" />
@@ -629,14 +515,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-          <folding>
-            <element signature="n#form#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/footer/footer.css">
+    <entry file="file://$PROJECT_DIR$/project/css/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="63" column="15" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
@@ -650,33 +532,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/order-form/order-form.css">
+    <entry file="file://$PROJECT_DIR$/project/css/order-form.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="120" column="14" selection-start-line="120" selection-start-column="14" selection-end-line="120" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/js/order-form.js">
+    <entry file="file://$PROJECT_DIR$/project/js/order-form.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/page1/page1.html">
+    <entry file="file://$PROJECT_DIR$/components/advantage/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="341" column="103" selection-start-line="341" selection-start-column="103" selection-end-line="341" selection-end-column="103" />
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="2" selection-end-column="6" />
           <folding>
-            <element signature="n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#0;n#section#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#g#0;n#g#0;n#g#0;n#svg#0;n#section#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#1;n#svg#0;n#section#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#g#0;n#svg#0;n#section#2;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#g#0;n#g#1;n#svg#0;n#section#3;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#g#0;n#g#2;n#svg#0;n#section#3;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#svg#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/css/advantage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/css/repertoire.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="74" column="17" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/css/reviews.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="161" column="18" selection-start-line="161" selection-start-column="18" selection-end-line="161" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/css/contacts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/html/media.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/html/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/html/repertoire.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/html/reviews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+          <folding>
+            <element signature="n#footer#0;n#article#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#form#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/html/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="78" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="78" />
+          <folding>
+            <element signature="n#svg#0;n#section#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#0;n#svg#0;n#section#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#g#0;n#g#0;n#g#0;n#svg#0;n#section#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#p#0;n#section#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#section#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>

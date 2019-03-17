@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="../css/contacts.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="48x48" href="../images/icon.png">
+    <script src="../js/submenu.js"></script>
+    <script src="../js/order-form.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="logo"><span>Игорь Долгих</span></div>
+            <input type="checkbox" id="menu-checkbox">
+            <label class="checkbox__label" for="menu-checkbox"></label>
+            <div class="burger-line first"></div>
+            <div class="burger-line second"></div>
+            <div class="burger-line third"></div>
+            <div class="burger-line fourth"></div>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="main.html">Главная</a></li>
+                    <li class="navigation__item navigation__item_relative">
+                        <button class="navigation__link navigation__link_down" onclick="ShowSub()">Медиа</button>
+                        <ul class="submenu" id="menu" onmouseleave="HideSub()">
+                            <li class="submenu__item"><a class="submenu__link" href="media.html#video">видео</a>
+                            </li>
+                            <li class="submenu__item"><a class="submenu__link" href="media.html#audio">аудио</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navigation__item"><a class="navigation__link" href="repertoire.html">Репертуар</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="reviews.html">Отзывы</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="./../page5/contacts.html">Контакты</a></li>
+                    <li class="navigation__item navigation__item_social">
+                        <a class="navigation__social-link" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="navigation__social-link" href="#"><i class="fab fa-vk"></i></a>
+                        <a class="navigation__social-link" href="#"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="contacts">
+        <div class="contacts__information">
+            <h3 class="contacts__headline">Контакты:</h3>
+            <p>
+                Беларусь, г.Гродно<br>
+                <i class="fas fa-phone"></i>+375 33 6866681<br>
+                <i class="fas fa-envelope"></i>dolgih84@mail.com<br>
+                <i class="fas fa-clock"></i>Ежедневно 24/7/365
+            </p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="logo">
+            <span class="logo__footer">Игорь Долгих</span><br>
+            <p class="logo__rights">&#169; Ольга Долгих 2019.
+                Все права.</p>
+        </div>
+        <button class="footer__button button" id="btn" onclick="openForm()">закажите выступление</button>
+        <div id="footer__form" class="form__container">
+            <form class="order-form" action="#" id="order-form">
+                <div class="order-form__inner">
+                    <h3 class="order-form__header">Закажите выступление</h3>
+                    <label class="order-form__username" for="username">Ваше имя</label>
+                    <input class="order-form__text" type="text" id="username">
+                    <label class="order-form__tel" for="phone">Ваш телефон</label>
+                    <input class="order-form__phone" id="phone" type="tel">
+                    <input class="order-form__input-submit button" type="submit" value="Отправить">
+                </div>
+                <i class="fas fa-times-circle order-form__button" id="close" onclick="closeForm()"></i>
+            </form>
+        </div>
+        <div class="social-link">
+            <a class="logo__social-link" href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a class="logo__social-link" href="#">
+                <i class="fab fa-vk"></i>
+            </a>
+            <a class="logo__social-link" href="">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
