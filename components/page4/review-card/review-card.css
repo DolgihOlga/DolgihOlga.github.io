@@ -49,14 +49,6 @@
     display: none;
 }
 
-.review__button:checked ~ .review__hidden {
-    display: block;
-}
-
-.review__button:checked ~ .review__label {
-    display: none;
-}
-
 .review__hidden:after {
     content: "\201D";
 }

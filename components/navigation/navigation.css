@@ -80,6 +80,7 @@
     background: transparent;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 .navigation__link:hover {
@@ -118,6 +119,7 @@
     display: block;
     text-decoration: none;
     color: var(--submenu-link-text-color);
+    cursor: pointer;
 }
 
 .submenu__link:hover {

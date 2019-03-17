@@ -6,6 +6,7 @@
     <title>Title</title>
     <link rel="stylesheet" href="review-card.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="./../../js/review.js"></script>
 </head>
 <body>
 <article class="review">
@@ -18,10 +19,10 @@
         <p class="review-description"> 	&#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque eveniet ex
             illo laboriosam molestiae
             nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, possimus?Lorem
-            ipsum dolor sit amet, consectetur adipisicing elit
-            <input type="checkbox" class="review__button" id="read"><label class="review__label" for="read">...&#8221;
+            ipsum dolor sit amet, consectetur adipisicing elit <span class="points">...&#8221;</span>
+            <input type="checkbox" class="review__button" id="read"><label onclick="reviewOpen()" class="review__label" for="read">
             <span class="review_more">Читать дальше</span></label>
-            <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+            <span class="review__hidden" onmouseleave="reviewClose()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
         </p>
     </div>
     <footer class="review-person">

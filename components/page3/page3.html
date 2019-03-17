@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Репертуар</title>
     <link rel="stylesheet" href="repertoire.css">
+    <script src="./../js/submenu.js"></script>
+
 
 </head>
 <body>
@@ -20,8 +22,9 @@
         <nav class="navigation">
             <ul class="navigation__list">
                 <li class="navigation__item"><a class="navigation__link" href="../page1/page1.html">Главная</a></li>
-                <li class="navigation__item navigation__item_relative"><button class="navigation__link navigation__link_down">Медиа</button>
-                    <ul class="submenu">
+                <li class="navigation__item navigation__item_relative">
+                    <button class="navigation__link navigation__link_down" onclick="ShowSub()">Медиа</button>
+                    <ul class="submenu" id="menu" onmouseleave="HideSub()">
                         <li class="submenu__item"><a class="submenu__link" href="./../page2/page2.html#video">видео</a></li>
                         <li class="submenu__item"><a class="submenu__link" href="./../page2/page2.html#audio">аудио</a></li>
                     </ul>

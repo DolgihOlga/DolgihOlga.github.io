@@ -15,6 +15,9 @@
             $('.slider').bxSlider();
         });
     </script>
+    <script src="./../js/submenu.js"></script>
+    <script src="./../js/review.js"></script>
+
 </head>
 <body>
 <header class="header">
@@ -29,8 +32,8 @@
         <nav class="navigation">
             <ul class="navigation__list">
                 <li class="navigation__item"><a class="navigation__link" href="../page1/page1.html">Главная</a></li>
-                <li class="navigation__item navigation__item_relative"><button class="navigation__link navigation__link_down">Медиа</button>
-                    <ul class="submenu">
+                <li class="navigation__item navigation__item_relative"><button class="navigation__link navigation__link_down" onclick="ShowSub()">Медиа</button>
+                    <ul class="submenu" id="menu" onmouseleave="HideSub()">
                         <li class="submenu__item"><a class="submenu__link" href="./../page2/page2.html#video">видео</a></li>
                         <li class="submenu__item"><a class="submenu__link" href="./../page2/page2.html#audio">аудио</a></li>
                     </ul>
@@ -60,15 +63,13 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <p class="review-description"> &#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque
-                    eveniet ex
+                <p class="review-description"> 	&#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque eveniet ex
                     illo laboriosam molestiae
-                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
-                    possimus?Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit
-                    <input type="checkbox" class="review__button" id="first"><label class="review__label" for="first">...&#8221;
+                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, possimus?Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit <span class="points">...&#8221;</span>
+                    <input type="checkbox" class="review__button" id="first"><label onclick="reviewOpen()" class="review__label" for="first">
                         <span class="review_more">Читать дальше</span></label>
-                    <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+                    <span class="review__hidden" onmouseleave="reviewClose()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
                 </p>
             </div>
             <footer class="review-person">
@@ -83,15 +84,13 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <p class="review-description"> &#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque
-                    eveniet ex
+                <p class="review-description"> 	&#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque eveniet ex
                     illo laboriosam molestiae
-                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
-                    possimus?Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit
-                    <input type="checkbox" class="review__button" id="second"><label class="review__label" for="second">...&#8221;
+                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, possimus?Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit <span class="points">...&#8221;</span>
+                    <input type="checkbox" class="review__button" id="second"><label onclick="reviewOpen()" class="review__label" for="second">
                         <span class="review_more">Читать дальше</span></label>
-                    <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+                    <span class="review__hidden" onmouseleave="reviewClose()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
                 </p>
             </div>
             <footer class="review-person">
@@ -106,86 +105,14 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <p class="review-description"> &#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque
-                    eveniet ex
+                <p class="review-description"> 	&#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque eveniet ex
                     illo laboriosam molestiae
-                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
-                    possimus?Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit
-                    <input type="checkbox" class="review__button" id="third"><label class="review__label" for="third">...&#8221;
+                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, possimus?Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit <span class="points">...&#8221;</span>
+                    <input type="checkbox" class="review__button" id="third">
+                    <label onclick="reviewOpen()" class="review__label" for="third">
                         <span class="review_more">Читать дальше</span></label>
-                    <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
-                </p>
-            </div>
-            <footer class="review-person">
-                <img class="review-person__photo" src="./../../project/images/ava.png" alt="">
-                <p class="reviewer">Елена Крушельницкая</p>
-            </footer>
-        </article>
-    </div>
-    <div class="container">
-        <article class="review">
-            <div class="review__container">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <p class="review-description"> &#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque
-                    eveniet ex
-                    illo laboriosam molestiae
-                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
-                    possimus?Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit
-                    <input type="checkbox" class="review__button" id="fourth"><label class="review__label" for="fourth">...&#8221;
-                        <span class="review_more">Читать дальше</span></label>
-                    <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
-                </p>
-            </div>
-            <footer class="review-person">
-                <img class="review-person__photo" src="./../../project/images/ava.png" alt="">
-                <p class="reviewer">Елена Крушельницкая</p>
-            </footer>
-        </article>
-        <article class="review">
-            <div class="review__container">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <p class="review-description"> &#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque
-                    eveniet ex
-                    illo laboriosam molestiae
-                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
-                    possimus?Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit
-                    <input type="checkbox" class="review__button" id="fifth"><label class="review__label" for="fifth">...&#8221;
-                        <span class="review_more">Читать дальше</span></label>
-                    <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
-                </p>
-            </div>
-            <footer class="review-person">
-                <img class="review-person__photo" src="./../../project/images/ava.png" alt="">
-                <p class="reviewer">Елена Крушельницкая</p>
-            </footer>
-        </article>
-        <article class="review">
-            <div class="review__container">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <p class="review-description"> &#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque
-                    eveniet ex
-                    illo laboriosam molestiae
-                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
-                    possimus?Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit
-                    <input type="checkbox" class="review__button" id="sixth"><label class="review__label" for="sixth">...&#8221;
-                        <span class="review_more">Читать дальше</span></label>
-                    <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+                    <span class="review__hidden" onmouseleave="reviewClose()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
                 </p>
             </div>
             <footer class="review-person">
@@ -202,15 +129,13 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <p class="review-description"> &#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque
-                    eveniet ex
+                <p class="review-description"> 	&#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque eveniet ex
                     illo laboriosam molestiae
-                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
-                    possimus?Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit
-                    <input type="checkbox" class="review__button" id="seven"><label class="review__label" for="seven">...&#8221;
+                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, possimus?Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit <span class="points">...&#8221;</span>
+                    <input type="checkbox" class="review__button" id="fourth"><label onclick="reviewOpen()" class="review__label" for="fourth">
                         <span class="review_more">Читать дальше</span></label>
-                    <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+                    <span class="review__hidden" onmouseleave="reviewClose()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
                 </p>
             </div>
             <footer class="review-person">
@@ -225,15 +150,13 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <p class="review-description"> &#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque
-                    eveniet ex
+                <p class="review-description"> 	&#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque eveniet ex
                     illo laboriosam molestiae
-                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
-                    possimus?Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit
-                    <input type="checkbox" class="review__button" id="eight"><label class="review__label" for="eight">...&#8221;
+                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, possimus?Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit <span class="points">...&#8221;</span>
+                    <input type="checkbox" class="review__button" id="fifth"><label onclick="reviewOpen()" class="review__label" for="fifth">
                         <span class="review_more">Читать дальше</span></label>
-                    <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+                    <span class="review__hidden" onmouseleave="reviewClose()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
                 </p>
             </div>
             <footer class="review-person">
@@ -248,15 +171,78 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <p class="review-description"> &#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque
-                    eveniet ex
+                <p class="review-description"> 	&#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque eveniet ex
                     illo laboriosam molestiae
-                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
-                    possimus?Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit
-                    <input type="checkbox" class="review__button" id="nine"><label class="review__label" for="nine">...&#8221;
+                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, possimus?Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit <span class="points">...&#8221;</span>
+                    <input type="checkbox" class="review__button" id="sixth"><label onclick="reviewOpen()" class="review__label" for="sixth">
                         <span class="review_more">Читать дальше</span></label>
-                    <span class="review__hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+                    <span class="review__hidden" onmouseleave="reviewClose()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+                </p>
+            </div>
+            <footer class="review-person">
+                <img class="review-person__photo" src="./../../project/images/ava.png" alt="">
+                <p class="reviewer">Елена Крушельницкая</p>
+            </footer>
+        </article>
+    </div>
+    <div class="container">
+        <article class="review">
+            <div class="review__container">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="review-description"> 	&#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque eveniet ex
+                    illo laboriosam molestiae
+                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, possimus?Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit <span class="points">...&#8221;</span>
+                    <input type="checkbox" class="review__button" id="seventh"><label onclick="reviewOpen()" class="review__label" for="seventh">
+                        <span class="review_more">Читать дальше</span></label>
+                    <span class="review__hidden" onmouseleave="reviewClose()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+                </p>
+            </div>
+            <footer class="review-person">
+                <img class="review-person__photo" src="./../../project/images/ava.png" alt="">
+                <p class="reviewer">Елена Крушельницкая</p>
+            </footer>
+        </article>
+        <article class="review">
+            <div class="review__container">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="review-description"> 	&#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque eveniet ex
+                    illo laboriosam molestiae
+                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, possimus?Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit <span class="points">...&#8221;</span>
+                    <input type="checkbox" class="review__button" id="eights"><label onclick="reviewOpen()" class="review__label" for="eights">
+                        <span class="review_more">Читать дальше</span></label>
+                    <span class="review__hidden" onmouseleave="reviewClose()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
+                </p>
+            </div>
+            <footer class="review-person">
+                <img class="review-person__photo" src="./../../project/images/ava.png" alt="">
+                <p class="reviewer">Елена Крушельницкая</p>
+            </footer>
+        </article>
+        <article class="review">
+            <div class="review__container">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="review-description"> 	&#8220; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque eveniet ex
+                    illo laboriosam molestiae
+                    nesciunt possimus soluta sunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, possimus?Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit <span class="points">...&#8221;</span>
+                    <input type="checkbox" class="review__button" id="ninth"><label onclick="reviewOpen()" class="review__label" for="ninth">
+                        <span class="review_more">Читать дальше</span></label>
+                    <span class="review__hidden" onmouseleave="reviewClose()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, deleniti eius illo in obcaecati possimus quos sapiente similique veritatis.</span>
                 </p>
             </div>
             <footer class="review-person">
