@@ -1,5 +1,5 @@
 @import url(../style.css);
-@import url(../../components/advantage-item/advantage.css);
+@import url(advantage-item.css);
 
 :root {
     --advantage-header-text-color: var(--isabelline);
