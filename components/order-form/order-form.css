@@ -118,6 +118,7 @@
 
 .order-form__button {
     position: absolute;
+    z-index: 8;
     top: -1.5em;
     right: -1.6em;
     border: none;
