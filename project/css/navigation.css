@@ -1,4 +1,4 @@
-@import url(../style.css);
+@import url(./../style.css);
 
 :root {
     --navigation-link-text-color: var( --isabelline);
@@ -174,7 +174,7 @@
     top: 3.5em;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 990px) {
     .burger-line {
         display: block;
     }
@@ -194,7 +194,7 @@
 
     .navigation__list {
         flex-direction: column;
-        width: 40%;
+        width: 45%;
         background: var(--navigation-list-bg-color);
     }
 

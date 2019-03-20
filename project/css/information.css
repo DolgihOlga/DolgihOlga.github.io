@@ -9,13 +9,12 @@
     --description-container-hover-color: var(--rich-black);
 }
 
-.information {
+.information, .information-second {
     display: flex;
     box-sizing: border-box;
     width: 100%;
-    max-width: 90em;
+    max-width: 100vw;
     height: 37.5em;
-    max-height: 37.5em;
     background: var(--information-bg-color);
     font-size: 1rem;
 }
@@ -118,29 +117,5 @@
     font-weight: 400;
 }
 
-@media screen and (max-width: 980px) {
-    .information, .description__inf,
-    .description__container,
-    .information__image {
-        height: 30em;
-        max-height: 30em;
-    }
-}
 
-@media screen and (max-width: 767px) {
-    .information, .description__inf,
-    .description__container,
-    .information__image {
-        height: 23em;
-        max-height: 23em;
-    }
-}
 
-@media screen and (max-width: 480px) {
-    .information, .description__inf,
-    .description__container,
-    .information__image {
-        height: 16em;
-        max-height: 16em;
-    }
-}

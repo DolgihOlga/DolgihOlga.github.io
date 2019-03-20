@@ -15,6 +15,7 @@
     width: 16em;
     background: var(--review-bg-color);
     text-align: center;
+    font-size: 1rem;
 }
 
 .fa-star {

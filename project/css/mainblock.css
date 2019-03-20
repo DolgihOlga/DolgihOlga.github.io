@@ -13,7 +13,7 @@
 .mainblock__photo {
     display: block;
     box-sizing: border-box;
-    max-width: 90em;
+    max-width: 100vw;
     width: 100%;
 }
 

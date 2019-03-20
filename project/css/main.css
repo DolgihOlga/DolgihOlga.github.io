@@ -7,6 +7,14 @@
 @import url(button.css);
 @import url(order-form.css);
 
+:root {
+    --information-bgmin-color: var(--onyx);
+    --information-min-color: var(--isabelline);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
 
 .information__photo-second {
     position: absolute;
@@ -26,40 +34,277 @@
     position: absolute;
     left: 0;
     width: 70%;
-    height: 37.5em;
-    max-height: 37.5em;
-}
-
-@media screen and (max-width: 980px) {
-    .information__photo-second, .information__description-second {
-        height: 30em;
-        max-height: 30em;
-    }
-    .name, .lastname {
-        font-size: 3.5em;
-    }
-    .advantage-container {
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-}
-
-@media screen and (max-width: 787px) {
-    .information__photo-second, .information__description-second {
-        height: 23em;
-        max-height: 23em;
-    }
-    .name, .lastname {
-        font-size: 2.5em;
-    }
 }
 
 @media screen and (max-width: 480px) {
-    .information__photo-second, .information__description-second {
-        height: 16em;
-        max-height: 16em;
+
+    .logo {
+        display: none;
+    }
+    .mainblock {
+        font-size: 1rem;
     }
     .name, .lastname {
         font-size: 1.5em;
     }
+    .header, .header__container {
+        height: 2em;
+        line-height: 3;
+    }
+    .burger-line {
+        width: 2em;
+    }
+    .first {
+        top: 0.7em;
+    }
+    .second, .third {
+        top: 1.5em;
+    }
+    .fourth {
+        top: 2.3em;
+    }
+    .navigation {
+        font-size: 1rem;
+    }
+
+    #menu-checkbox:checked ~ .navigation {
+        height: 23.4em;
+    }
+
+    .submenu {
+        margin-top: 1em;
+    }
+    .navigation__link, .submenu__link {
+        font-size: 0.7em;
+    }
+    .information, .information-second {
+        display: flex;
+        flex-direction: column;
+        position: static;
+        height: auto;
+        background: var(--information-bgmin-color);
+
+    }
+
+    .information__image {
+        position: static;
+        margin: auto;
+        width: 11em;
+        height: 16.5em;
+
+    }
+    .information__photo, .information__photo-second {
+        position: static;
+        box-sizing: border-box;
+        padding: 2em;
+        margin: auto;
+        height: auto;
+        width: 100%;
+    }
+    .information__description, .information__description-second {
+        position: static;
+        width: 100%;
+    }
+    .description__container {
+        height: auto;
+        background: var(--information-bgmin-color);
+        color: var(--information-min-color);
+        animation: none;
+    }
+    .description__inf {
+        display: none;
+    }
+    .advantage {
+        position: static;
+    }
+    .advantage-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 15em;
+    }
+    .advantage__header {
+        font-size: 1.5em;
+    }
+    .advantage-item__icon {
+        width: 6em;
+    }
+    .form__container {
+        padding-top: 5em;
+    }
+    .order-form {
+        width: 15em;
+        padding: 2em 2em 3em;
+    }
+
+    .order-form__header {
+        font-size: 0.8em;
+    }
+    .navigation__item_social {
+        padding-left: 0;
+        padding-right: 0;
+        margin: auto;
+    }
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .logo {
+        display: block;
+        font-size: 0.9em;
+    }
+    .header, .header__container {
+        height: 4em;
+        line-height: 4;
+    }
+    .navigation {
+        line-height: 3;
+    }
+    .burger-line {
+        width: 2em;
+    }
+    .first {
+        top: 1em;
+    }
+    .second, .third {
+        top: 1.8em;
+    }
+    .fourth {
+        top: 2.6em;
+    }
+
+    .name, .lastname {
+        font-size: 2.2em;
+    }
+
+    #menu-checkbox:checked ~ .navigation {
+        height: 24.5em;
+    }
+
+    .submenu {
+        margin-top: 1em;
+    }
+    .navigation__link, .submenu__link {
+        font-size: 0.9em;
+    }
+    .information, .information-second {
+        display: flex;
+        flex-direction: column;
+        position: static;
+        height: auto;
+        background: var(--information-bgmin-color);
+    }
+
+    .information__image {
+        position: static;
+        margin: auto;
+        width: 15em;
+        height: 22.5em;
+    }
+    .information__photo, .information__photo-second {
+        position: static;
+        box-sizing: border-box;
+        padding: 2em;
+        margin: auto;
+        height: auto;
+        width: 100%;
+    }
+    .information__description, .information__description-second {
+        position: static;
+        width: 100%;
+    }
+    .description__container {
+        height: auto;
+        background: var(--information-bgmin-color);
+        color: var(--information-min-color);
+        animation: none;
+    }
+    .description__inf {
+        display: none;
+    }
+    .advantage {
+        position: static;
+    }
+    .advantage-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 20em;
+    }
+    .advantage__header {
+        font-size: 1.5em;
+    }
+    .advantage-item__icon {
+        width: 8em;
+    }
+    .form__container {
+        padding-top: 5em;
+    }
+    .order-form {
+        width: 25em;
+        padding: 2em 2em 3em;
+    }
+
+    .order-form__header {
+        font-size: 1em;
+    }
+    .navigation__item_social {
+        padding-left: 0;
+        padding-right: 0;
+        margin: auto;
+    }
+    .footer .logo {
+        margin-left: -6em;
+        font-size: 0.7em;
+    }
+    .social-link {
+        margin-right: -6em;
+        padding-right: 2em;
+        font-size: 0.7em;
+    }
+    .footer__button {
+        font-size: 0.7em;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 990px) {
+    .name, .lastname {
+        font-size: 3em;
+    }
+    .information, .information-second, .information__image,
+    .information__description, .information__description-second,
+    .description__container, .information__photo,
+    .information__photo-second {
+        height: 25em;
+    }
+
+    .information__image {
+        margin: auto;
+        padding: 2em;
+        height: 22.5em;
+        width: 15em;
+    }
+
+    .information__text {
+        padding: 0 2em;
+    }
+    .description__inf {
+        display: none;
+    }
+
+    .advantage__header {
+        font-size: 1.5em;
+    }
+    .advantage-container {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .advantage-item__content {
+        padding: 1em;
+        width: 20em;
+    }
+    .advantage-item__icon {
+        width: 6em;
+    }
+
+}
+
+

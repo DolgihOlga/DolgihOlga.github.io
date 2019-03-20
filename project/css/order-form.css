@@ -1,4 +1,4 @@
-@import url(../style.css);
+@import url(./../style.css);
 @import url(button.css);
 
 
@@ -19,6 +19,7 @@
 .order-form {
     position: relative;
     box-sizing: border-box;
+    width: 30em;
     max-width: 30em;
     padding: 4em 4em 6em;
     margin: 0 auto;
