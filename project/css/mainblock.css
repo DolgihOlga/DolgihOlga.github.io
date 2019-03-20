@@ -3,7 +3,6 @@
 
 :root {
     --mainblock-headline-text-color: var(--sandy-taure);
-
 }
 
 .mainblock {
@@ -53,5 +52,4 @@
     to {
         right: 2.5em;
     }
-
 }

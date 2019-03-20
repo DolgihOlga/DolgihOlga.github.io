@@ -1,9 +1,6 @@
 @import url(./../style.css);
 @import url(button.css);
 
-
-
-
 :root {
     --order-form-header-text-color: var(--isabelline);
     --order-form-header-bg-after: var(--sandy-taure);

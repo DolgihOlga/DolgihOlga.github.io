@@ -6,7 +6,6 @@
     --review-more-text-color: var(--ashgrey);
     --review-more-hover-color: var(--isabelline);
     --reviewer-text-color: var(--rich-black);
-
 }
 
 .review__container {
@@ -44,7 +43,7 @@
 
 .review__hidden {
      display: none;
- }
+}
 
 .review__button {
     display: none;

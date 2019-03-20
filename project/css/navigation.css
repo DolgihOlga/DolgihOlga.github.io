@@ -40,7 +40,6 @@
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .logo {
@@ -57,7 +56,6 @@
 
 .navigation {
     padding-right: 3em;
-
 }
 
 .navigation__list {
@@ -101,7 +99,6 @@
     width: 6em;
     box-shadow: 0 0 2em rgba(0,0,0,0.2);
     display: none;
-
 }
 
 
@@ -135,7 +132,6 @@
     font-size: 1em;
     color: var(--i-hover-text-color);
 }
-
 
 #menu-checkbox {
     display: none;
@@ -175,6 +171,7 @@
 }
 
 @media screen and (max-width: 990px) {
+
     .burger-line {
         display: block;
     }
@@ -218,7 +215,6 @@
 
     .navigation__link_down:hover ~ .submenu {
          visibility: visible;
-
     }
 
     #menu-checkbox:checked ~ .navigation {
@@ -240,5 +236,4 @@
     #menu-checkbox:checked ~ .fourth {
         display: none;
     }
-
 }

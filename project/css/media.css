@@ -73,33 +73,37 @@
     font-size: 1rem;
     color: var(--audio-title-text-color);
 }
+
 .audio__title {
     padding: 2em;
     text-align: center;
     font-size: 2em;
     text-transform: uppercase;
 }
+
 .audio__list {
     margin: auto;
     width: 30em;
     list-style: none;
     padding-bottom: 2em;
 }
+
 .audio__item {
     margin-bottom: 0.5em;
 }
+
 .audio__player {
     width: 30em;
     height: 2em;
 }
 
-
-
 @media screen and (max-width: 480px){
+
     .media{
         height: 12em;
         line-height: 12;
     }
+
     .media__photo {
         display: block;
         box-sizing: border-box;
@@ -113,6 +117,7 @@
         width: 40%;
         font-size: 1em;
     }
+
     .video__container {
         flex-direction: column;
         align-items: center;
@@ -138,12 +143,15 @@
         width: 15em;
         padding-bottom: 2em;
     }
+
     .audio__item {
         margin-bottom: 0.5em;
     }
+
     .audio__name {
         font-size: 0.8em;
     }
+
     .audio__player {
         width: 15em;
         height: 1.2em;
@@ -164,8 +172,8 @@
     .media{
         height: 17em;
         line-height: 7;
-
     }
+
     .media__photo {
         height: 17em;
         width: 50%;
@@ -194,6 +202,7 @@
         width: 20em;
         height: 13em;
     }
+
     .audio__title {
         padding: 1em;
         font-size:1.5em;
@@ -203,12 +212,15 @@
         width: 20em;
         padding-bottom: 2em;
     }
+
     .audio__item {
         margin-bottom: 0.5em;
     }
+
     .audio__name {
         font-size: 0.9em;
     }
+
     .audio__player {
         width: 20em;
         height: 1.5em;
@@ -227,12 +239,14 @@
         font-size: 0.7em;
     }
 }
+
 @media screen and (min-width: 769px) and (max-width: 990px) {
+
     .media{
         height: 22em;
         line-height: 7;
-
     }
+
     .media__photo {
         height: 22em;
         width: 50%;
@@ -262,6 +276,7 @@
         width: 20em;
         height: 13em;
     }
+
     .audio__title {
         padding: 1em;
         font-size:1.5em;
@@ -271,12 +286,15 @@
         width: 25em;
         padding-bottom: 2em;
     }
+
     .audio__item {
         margin-bottom: 0.5em;
     }
+
     .audio__name {
         font-size: 1em;
     }
+
     .audio__player {
         width: 25em;
         height: 1.5em;
@@ -289,5 +307,4 @@
     .footer__button {
         font-size: 0.7em;
     }
-
 }

@@ -75,6 +75,7 @@
 }
 
 @media screen and (max-width: 480px) {
+
     .repertoire {
         height: 12em;
     }
@@ -127,6 +128,7 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+
     .repertoire {
         height: 17em;
     }
@@ -178,6 +180,7 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 990px) {
+
     .repertoire {
         height: 22em;
     }
