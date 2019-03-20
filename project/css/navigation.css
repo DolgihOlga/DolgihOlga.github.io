@@ -16,10 +16,6 @@
     --navigation-item-border-color: var(--isabelline);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
 
 .header {
     position: absolute;
