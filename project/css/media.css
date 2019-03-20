@@ -9,6 +9,8 @@
     --media-headline-text-color: var(--isabelline);
     --video-bg-color: var(--onyx);
     --video-title-text-color: var(--isabelline);
+    --audio-bg-color: var(--onyx);
+    --audio-title-text-color: var(--isabelline);
 }
 
 .media {
@@ -42,6 +44,7 @@
 
 .video {
     background: var(--video-bg-color);
+    font-size: 1rem;
 }
 
 .video__title {
@@ -65,10 +68,32 @@
     margin-bottom: 2em;
 }
 
-audio {
-    height: 1.5em;
-    color: white;
+.audio {
+    background: var(--audio-bg-color);
+    font-size: 1rem;
+    color: var(--audio-title-text-color);
 }
+.audio__title {
+    padding: 2em;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.audio__list {
+    margin: auto;
+    width: 30em;
+    list-style: none;
+    padding-bottom: 2em;
+}
+.audio__item {
+    margin-bottom: 0.5em;
+}
+.audio__player {
+    width: 30em;
+    height: 2em;
+}
+
+
 
 @media screen and (max-width: 480px){
     .media{
@@ -102,6 +127,26 @@ audio {
     iframe {
         width: 15em;
         height: 9em;
+    }
+
+    .audio__title {
+        padding: 1em;
+        font-size:1em;
+    }
+
+    .audio__list {
+        width: 15em;
+        padding-bottom: 2em;
+    }
+    .audio__item {
+        margin-bottom: 0.5em;
+    }
+    .audio__name {
+        font-size: 0.8em;
+    }
+    .audio__player {
+        width: 15em;
+        height: 1.2em;
     }
 
     .order-form {
@@ -149,10 +194,26 @@ audio {
         width: 20em;
         height: 13em;
     }
-
-    .form__container {
-        padding-top: 5em;
+    .audio__title {
+        padding: 1em;
+        font-size:1.5em;
     }
+
+    .audio__list {
+        width: 20em;
+        padding-bottom: 2em;
+    }
+    .audio__item {
+        margin-bottom: 0.5em;
+    }
+    .audio__name {
+        font-size: 0.9em;
+    }
+    .audio__player {
+        width: 20em;
+        height: 1.5em;
+    }
+
     .order-form {
         width: 25em;
         padding: 2em 2em 3em;
@@ -200,6 +261,25 @@ audio {
     iframe {
         width: 20em;
         height: 13em;
+    }
+    .audio__title {
+        padding: 1em;
+        font-size:1.5em;
+    }
+
+    .audio__list {
+        width: 25em;
+        padding-bottom: 2em;
+    }
+    .audio__item {
+        margin-bottom: 0.5em;
+    }
+    .audio__name {
+        font-size: 1em;
+    }
+    .audio__player {
+        width: 25em;
+        height: 1.5em;
     }
 
     .form__container {

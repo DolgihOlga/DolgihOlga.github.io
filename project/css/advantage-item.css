@@ -3,8 +3,6 @@
 :root {
     --advantage-header-text-color: var(--isabelline);
     --advantage-item-text-color: var(--isabelline);
-
-
 }
 
 .advantage-item__content {

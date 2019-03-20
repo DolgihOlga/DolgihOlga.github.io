@@ -1,10 +1,10 @@
 @import url(../style.css);
 @import url(advantage-item.css);
 
+
 :root {
     --advantage-header-text-color: var(--isabelline);
     --advantage-bg-color: var(--onyx);
-
 }
 
 .advantage {

@@ -35,6 +35,9 @@
 .slider {
     margin: auto;
 }
+.slider .reviewer {
+    text-align: center;
+}
 .review-form {
     box-sizing: border-box;
     max-width: 100%;

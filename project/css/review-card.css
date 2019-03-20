@@ -79,6 +79,7 @@
 }
 
 .reviewer {
+    text-align: center;
     color: var(--reviewer-text-color);
     font-weight: bold;
 }

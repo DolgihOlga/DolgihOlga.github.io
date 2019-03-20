@@ -45,7 +45,7 @@
         <p class="media__headline">Музыка</p>
         <img class="media__photo" src="../images/photomedia.jpg" alt="">
     </section>
-    <section class="video" id="video">
+    <section class="video" >
         <h3 class="video__title">Кавер-видео</h3>
         <div class="video__container">
             <div class="video__item">
@@ -90,21 +90,41 @@
             </div>
         </div>
     </section>
-    <section>
-        <h3 id="audio">Аудио</h3>
-        <ul>
-            <li>BrokenPlus<br>
-                <audio src="../audio/BrokenPlus" controls ></audio>
+    <section class="audio">
+        <h3 class="audio__title">Аудио</h3>
+        <ul class="audio__list">
+            <li class="audio__item">
+
+                <audio class="audio__player" src="../audio/BrokenPlus" controls></audio>
             </li>
-            <li><audio src="../audio/Esli" controls>Esli</audio></li>
-            <li><audio src="../audio/Marx" controls>Marx</audio></li>
-            <li><audio src="../audio/MarxMaste">MarxMaste</audio></li>
-            <li><audio src="../audio/My-baby-you">My-baby-you</audio></li>
-            <li><audio src="../audio/Perte">Perte</audio></li>
-            <li><audio src="../audio/TooMuch">TooMuch</audio></li>
-            <li><audio src="../audio/Вечерняя-застольная">Вечерняя-застольная</audio></li>
-            <li><audio src="../audio/Березовый-сок">Березовый-сок</audio></li>
-            <li><audio src="../audio/Любовь-похожая-на-сон">Любовь-похожая-на-сон</audio></li>
+            <li class="audio__item">
+                <span class="audio__name">Esli</span><br>
+                <audio class="audio__player" src="../audio/Esli" controls>Esli</audio>
+            </li>
+            <li class="audio__item">
+                <span class="audio__name">My Baby You</span><br>
+                <audio class="audio__player" src="../audio/Mybabyyou" controls>MyBabyYou</audio>
+            </li>
+            <li class="audio__item">
+                <span class="audio__name">Perte</span><br>
+                <audio class="audio__player" src="../audio/Perte" controls>Perte</audio>
+            </li>
+            <li class="audio__item">
+                <span class="audio__name">Too Much</span><br>
+                <audio class="audio__player" src="../audio/TooMuch" controls>TooMuch</audio>
+            </li>
+            <li class="audio__item">
+                <span class="audio__name">Вечерняя застольная</span><br>
+                <audio class="audio__player" src="../audio/VechernyaZastolnaya" controls>VechernyaZastolnaya</audio>
+            </li>
+            <li class="audio__item">
+                <span class="audio__name">Березовый сок</span><br>
+                <audio class="audio__player" src="../audio/BerezovySok" controls>BerezovySok</audio>
+            </li>
+            <li class="audio__item">
+                <span class="audio__name">Любовь похожая на сон</span><br>
+                <audio class="audio__player" src="../audio/LubovPohozhayNaSon" controls>LubovPohozhayNaSon</audio>
+            </li>
         </ul>
     </section>
     <footer class="footer">
