@@ -1,0 +1,121 @@
+@import url(../style.css);
+
+:root {
+    --information-bg-color: var(--isabelline);
+    --description-inf-bg-color: var(--rich-black);
+    --description-text-color: var(--isabelline);
+    --description-container-color: var(--isabelline);
+    --description-container-bg-color: var(--isabelline);
+    --description-container-hover-color: var(--rich-black);
+}
+
+.information, .information-second {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100vw;
+    height: 37.5em;
+    background: var(--information-bg-color);
+    font-size: 1rem;
+}
+
+.information__photo {
+    position: absolute;
+    z-index: 3;
+    width: 30%;
+}
+
+.information__photo:hover {
+    transform: scale(1.1) rotate(5deg);
+    transition: all 2s ease-in-out;
+}
+
+
+.information__image {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 37.5em;
+    max-height: 37.5em;
+}
+
+.information__description {
+    position: absolute;
+    right: 0;
+    width: 70%;
+}
+
+.description__inf {
+    position: absolute;
+    z-index: 1;
+    padding: 0;
+    width: 100%;
+    background: var(--description-inf-bg-color);
+    height:37.5em;
+    max-height: 37.5em;
+}
+
+.description__text {
+    display: block;
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2em;
+    color: var(--description-text-color);
+}
+
+.description__inf:hover {
+    opacity: 0;
+    animation: anim1 2s ease-in-out;
+}
+
+@keyframes anim1 {
+    from {
+       opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.description__container {
+    box-sizing: border-box;
+    padding: 2em;
+    height: 37.5em;
+    max-height: 37.5em;
+    background: var(--description-container-bg-color);
+    color: var(--description-container-color);
+    animation: anim2 7s ease-in-out forwards;
+}
+
+@keyframes anim2 {
+    from {
+        color: var(--description-container-color);
+    }
+    to {
+        color: var(--description-container-hover-color);
+    }
+}
+
+.information__header {
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.7;
+    letter-spacing: 0.025em;
+}
+
+.information__text {
+    margin: 0.9em 0;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+
+
