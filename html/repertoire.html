@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Репертуар</title>
+    <link rel="stylesheet" href="../css/repertoire.css">
+    <link rel="icon" type="image/png" sizes="48x48" href="../images/icon.png">
+    <script src="../js/submenu.js"></script>
+    <script src="../js/order-form.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="logo"><span>Игорь Долгих</span></div>
+            <input type="checkbox" id="menu-checkbox">
+            <label class="checkbox__label" for="menu-checkbox"></label>
+            <div class="burger-line first"></div>
+            <div class="burger-line second"></div>
+            <div class="burger-line third"></div>
+            <div class="burger-line fourth"></div>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="main.html">Главная</a></li>
+                    <li class="navigation__item navigation__item_relative">
+                        <button class="navigation__link navigation__link_down" onclick="ShowSub()">Медиа</button>
+                        <ul class="submenu" id="menu" onmouseleave="HideSub()">
+                            <li class="submenu__item"><a class="submenu__link" href="media.html#video">видео</a>
+                            </li>
+                            <li class="submenu__item"><a class="submenu__link" href="media.html#audio">аудио</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navigation__item"><a class="navigation__link" href="./../page3/repertoire.html">Репертуар</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="reviews.html">Отзывы</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="contacts.html">Контакты</a></li>
+                    <li class="navigation__item navigation__item_social">
+                        <a class="navigation__social-link" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="navigation__social-link" href="#"><i class="fab fa-vk"></i></a>
+                        <a class="navigation__social-link" href="#"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <header class="repertoire">
+        <h3 class="repertoire__headline">Репертуар</h3>
+    </header>
+    <section class="repertoire-song">
+        <div class="repertoire-song__container">
+            <h3 class="repertoire-song__headline">Более 500 песен</h3>
+            <p class="repertoire-song__text">От джаза до современных хитов</p>
+            <a class="repertoire-button button" href="../docs/IgorDolgih-Repertuar.xlsx">Скачать полный
+                репертуар</a>
+        </div>
+        <p class="repertoire-song__recomend">
+            Вы можете воспользоваться готовыми программами Игоря Долгих, а можете «сконструировать» его
+            выступление сами c учетом особенностей именно Вашего мероприятия! Ваши музыкальные предпочтения, тематика,
+            формат мероприятия, задачи музыкального сопровождения – все это возможно учесть в процессе подготовки
+            программы выступления.
+        </p>
+        <ul class="repertoire-song__list">
+            <li class="repertoire-song__item">Мировые хиты</li>
+            <li class="repertoire-song__item">Современные русские танцевальные хиты</li>
+            <li class="repertoire-song__item">Шансон</li>
+            <li class="repertoire-song__item">Русские хиты (80-х, 90-х)</li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="logo">
+            <span class="logo__footer">Игорь Долгих</span><br>
+            <p class="logo__rights">&#169; Ольга Долгих 2019.<br>
+                Все права.</p>
+        </div>
+        <button class="footer__button button" id="btn" onclick="openForm()">закажите выступление</button>
+        <div id="footer__form" class="form__container">
+            <form class="order-form" action="#" id="order-form">
+                <div class="order-form__inner">
+                    <h3 class="order-form__header">Закажите выступление</h3>
+                    <label class="order-form__username" for="username">Ваше имя</label>
+                    <input class="order-form__text" type="text" id="username">
+                    <label class="order-form__tel" for="phone">Ваш телефон</label>
+                    <input class="order-form__phone" id="phone" type="tel">
+                    <input class="order-form__input-submit button" type="submit" value="Отправить">
+                </div>
+                <i class="fas fa-times-circle order-form__button" id="close" onclick="closeForm()"></i>
+            </form>
+        </div>
+        <div class="social-link">
+            <a class="logo__social-link" href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a class="logo__social-link" href="#">
+                <i class="fab fa-vk"></i>
+            </a>
+            <a class="logo__social-link" href="">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

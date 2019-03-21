@@ -1,0 +1,132 @@
+@import url(../style.css);
+@import url(button.css);
+
+:root {
+    --order-form-header-text-color: var(--isabelline);
+    --order-form-header-bg-after: var(--sandy-taure);
+    --order-form-username-text-color: var(--isabelline);
+    --order-form-text-color: var(--isabelline);
+    --order-form-text-bg-color:var(--isabellineo-pacity);
+    --order-form-tel-text-color: var(--isabelline);
+    --order-form-phone-color: var(--isabelline);
+    --order-form-phone-bg-color:var(--isabellineo-pacity);
+    --order-form-button-color: var(--sandy-taure);
+}
+
+.order-form {
+    position: relative;
+    box-sizing: border-box;
+    width: 30em;
+    max-width: 30em;
+    padding: 4em 4em 6em;
+    margin: 0 auto;
+    background-image: url("../images/formfon.jpg");
+    background-size: cover;
+    font-size: 1rem;
+}
+
+.order-form:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right bottom, rgba(49, 56, 64, 0.5), rgba(209, 142, 0, 0.5));
+}
+
+.order-form__inner {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.order-form__header {
+    position: relative;
+    margin-top: 0;
+    box-sizing: border-box;
+    color: var(--order-form-header-text-color);
+    font-weight: 300;
+    font-size: 1.2em;
+    word-spacing: 0.4em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.order-form__header:after {
+    content: "";
+    position :absolute;
+    left: 0;
+    bottom: -0.375em;
+    height: 0.125em;
+    width: 3.75em;
+    background: var(--order-form-header-bg-after);
+}
+
+.order-form__username {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 1.5em;
+    padding-left: 0.9em;
+    color: var(--order-form-username-text-color);
+    text-transform: uppercase;
+    font-size: 0.875em;
+}
+
+.order-form__text {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 0.9em;
+    margin: 0.6em 0 1em;
+    border-width: 0;
+    line-height: 2.5em;
+    outline: none;
+    border-radius: 1.25em;
+    color: var(--order-form-text-color);
+    background: var(--order-form-text-bg-color);
+}
+
+.order-form__tel {
+    display: block;
+    box-sizing: border-box;
+    padding-left: 0.9em;
+    color: var(--order-form-tel-text-color);
+    text-transform: uppercase;
+    font-size: 0.875em;
+}
+
+.order-form__phone {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 0.9em;
+    margin: 0.6em 0 1em;
+    border-width: 0;
+    line-height: 2.5em;
+    outline: none;
+    border-radius: 1.25em;
+    color: var(--order-form-phone-color);
+    background: var(--order-form-phone-bg-color);
+}
+
+.order-form__input-submit {
+    width: 100%;
+}
+
+.order-form__button {
+    position: absolute;
+    z-index: 8;
+    top: -1.5em;
+    right: -1.6em;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--order-form-button-color);
+    cursor: pointer;
+}
+
+.fa-times-circle {
+    font-size: 1.5em;
+}
+
