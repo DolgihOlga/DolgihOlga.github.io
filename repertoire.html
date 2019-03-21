@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Контакты</title>
-    <link rel="stylesheet" href="../css/contacts.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="icon" type="image/png" sizes="48x48" href="../images/icon.png">
-    <script src="../js/submenu.js"></script>
-    <script src="../js/order-form.js"></script>
+    <title>Репертуар</title>
+    <link rel="stylesheet" href="css/repertoire.css">
+    <link rel="icon" type="image/png" sizes="48x48" href="images/icon.png">
+    <script src="js/submenu.js"></script>
+    <script src="js/order-form.js"></script>
 </head>
 <body>
     <header class="header">
@@ -32,9 +31,9 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="navigation__item"><a class="navigation__link" href="repertoire.html">Репертуар</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="./../page3/repertoire.html">Репертуар</a></li>
                     <li class="navigation__item"><a class="navigation__link" href="reviews.html">Отзывы</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="./../page5/contacts.html">Контакты</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="contacts.html">Контакты</a></li>
                     <li class="navigation__item navigation__item_social">
                         <a class="navigation__social-link" href="#"><i class="fab fa-instagram"></i></a>
                         <a class="navigation__social-link" href="#"><i class="fab fa-vk"></i></a>
@@ -44,16 +43,28 @@
             </nav>
         </div>
     </header>
-    <section class="contacts">
-        <div class="contacts__information">
-            <h3 class="contacts__headline">Контакты:</h3>
-            <p>
-                Беларусь, г.Гродно<br>
-                <i class="fas fa-phone"></i>+375 33 6866681<br>
-                <i class="fas fa-envelope"></i>dolgikh84@mail.com<br>
-                <i class="fas fa-clock"></i>Ежедневно 24/7/365
-            </p>
+    <header class="repertoire">
+        <h3 class="repertoire__headline">Репертуар</h3>
+    </header>
+    <section class="repertoire-song">
+        <div class="repertoire-song__container">
+            <h3 class="repertoire-song__headline">Более 500 песен</h3>
+            <p class="repertoire-song__text">От джаза до современных хитов</p>
+            <a class="repertoire-button button" href="docs/IgorDolgih-Repertuar.xlsx">Скачать полный
+                репертуар</a>
         </div>
+        <p class="repertoire-song__recomend">
+            Вы можете воспользоваться готовыми программами Игоря Долгих, а можете «сконструировать» его
+            выступление сами c учетом особенностей именно Вашего мероприятия! Ваши музыкальные предпочтения, тематика,
+            формат мероприятия, задачи музыкального сопровождения – все это возможно учесть в процессе подготовки
+            программы выступления.
+        </p>
+        <ul class="repertoire-song__list">
+            <li class="repertoire-song__item">Мировые хиты</li>
+            <li class="repertoire-song__item">Современные русские танцевальные хиты</li>
+            <li class="repertoire-song__item">Шансон</li>
+            <li class="repertoire-song__item">Русские хиты (80-х, 90-х)</li>
+        </ul>
     </section>
     <footer class="footer">
         <div class="logo">
